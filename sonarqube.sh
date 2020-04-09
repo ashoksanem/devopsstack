@@ -10,3 +10,4 @@ sudo wget -P /opt   https://binaries.sonarsource.com/Distribution/sonarqube/sona
 sudo unzip /opt/sonarqube-6.0.zip -d /opt &&  sudo mv /opt/sonarqube-6.0  /opt/sonarqube
 sudo mv /opt/sonarqube/conf/sonar.properties /mnt/  && sudo cat /devopsstack/mysonar.properties >> /opt/sonarqube/conf/sonar.properties
 sudo sh /opt/sonarqube/bin/linux-x86-64/sonar.sh start
+#https://www.fosstechnix.com/install-sonarqube-on-ubuntu/
